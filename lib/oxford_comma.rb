@@ -7,7 +7,7 @@ def oxford_comma(array)
   array.each do |str|
     output += str
     counter + 2 == array.size ? (output += " and ") : (output += ", ")
-    counter += 0
+    counter += 1
   end
   output
 end
